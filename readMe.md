@@ -1,0 +1,1 @@
+This project has Java Script projects

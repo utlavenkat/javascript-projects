@@ -33,19 +33,19 @@ docker-compose down
 
 ### Build the Image
 ```bash
-docker build -t hello-world-app .
+docker build -t javascripts-projects .
 ```
 
 ### Run the Container
 ```bash
-docker run -d -p 80:80 --name hello-world-app hello-world-app
+docker run -d -p 80:80 --name javascripts-projects javascripts-projects
 ```
 
 Parameters explained:
 - `-d` : Run in detached mode (background)
 - `-p 80:80` : Map port 80 from container to port 80 on your laptop
-- `--name hello-world-app` : Name the container
-- `hello-world-app` : Image name
+- `--name javascripts-projects` : Name the container
+- `javascripts-projects` : Image name
 
 ### Access the Application
 Open your browser and navigate to:
@@ -55,17 +55,17 @@ http://localhost
 
 ### View Container Logs
 ```bash
-docker logs hello-world-app
+docker logs javascripts-projects
 ```
 
 ### Stop the Container
 ```bash
-docker stop hello-world-app
+docker stop javascripts-projects
 ```
 
 ### Remove the Container
 ```bash
-docker rm hello-world-app
+docker rm javascripts-projects
 ```
 
 ---
@@ -90,7 +90,7 @@ Access at: `http://localhost:8080`
 
 ### With Docker Commands
 ```bash
-docker run -d -p 8080:80 --name hello-world-app hello-world-app
+docker run -d -p 8080:80 --name javascripts-projects javascripts-projects
 ```
 
 Access at: `http://localhost:8080`
@@ -111,12 +111,12 @@ docker ps -a
 
 ### Remove an image
 ```bash
-docker rmi hello-world-app
+docker rmi javascripts-projects
 ```
 
 ### View container details
 ```bash
-docker inspect hello-world-app
+docker inspect javascripts-projects
 ```
 
 ---
@@ -131,7 +131,7 @@ If you get a "port already in use" error, either:
 ### Container exits immediately
 Check the logs:
 ```bash
-docker logs hello-world-app
+docker logs javascripts-projects
 ```
 
 ### Cannot connect to Docker daemon

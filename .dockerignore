@@ -7,3 +7,8 @@ node_modules
 .vscode
 .idea
 npm-debug.log
+Dockerfile
+docker-compose.yml
+.dockerignore
+package.json
+package-lock.json

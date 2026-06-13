@@ -1,0 +1,3 @@
+# Modal Window
+
+A responsive modal dialog component built with vanilla JavaScript, HTML, and CSS. The modal displays when trigger buttons are clicked and can be closed by clicking a close button, the overlay, or pressing the Escape key. Features a gradient background, clean styling, and smooth visibility toggling using CSS classes. The project demonstrates DOM manipulation, event handling, and basic UI/UX patterns for modal interactions.
